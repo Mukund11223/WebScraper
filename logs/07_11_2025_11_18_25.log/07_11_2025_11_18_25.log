@@ -1,0 +1,22 @@
+[ 2025-07-11 11:18:26,550 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-11 11:18:34,564 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-11 11:18:34,564 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-11 11:18:34,564 ] 20 root - INFO - Fetching page: https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-11 11:18:34,884 ] 23 root - INFO - Page fetched successfully
+[ 2025-07-11 11:18:34,886 ] 32 root - INFO - Parsing headlines from HTML content
+[ 2025-07-11 11:18:34,963 ] 58 root - INFO - Parsed 4 unique headlines
+[ 2025-07-11 11:18:34,965 ] 117 root - INFO - Data saved to data/headlines_20250711_111834.json
+[ 2025-07-11 11:18:34,965 ] 20 root - INFO - Summarizing 4 headlines
+[ 2025-07-11 11:18:40,047 ] 37 root - INFO - Summary generated successfully
+[ 2025-07-11 11:18:40,047 ] 47 root - INFO - Summarizing individual news articles
+[ 2025-07-11 11:18:40,047 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/punjab-govt-plotted-nabha-jailbreak-alleges-amarinder-singh/videoshow/55649797.cms
+[ 2025-07-11 11:18:40,158 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-11 11:18:45,507 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/jitendra-singh-slams-farooq-abdullah-over-his-controversial-remarks-on-pok/videoshow/55649791.cms
+[ 2025-07-11 11:18:45,613 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-11 11:18:50,257 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/punjab-jailbreak-woman-killed-after-police-open-fire-at-vehicle-that-jumped-security-barricade/videoshow/55650435.cms
+[ 2025-07-11 11:18:50,400 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-11 11:18:57,151 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/caught-on-cctv-unidentified-men-loot-gold-bars-worth-rs-4-cr-in-ahmedabad/videoshow/55636206.cms
+[ 2025-07-11 11:18:57,319 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-11 11:19:05,361 ] 83 root - INFO - Individual articles summarized successfully
+[ 2025-07-11 11:19:05,361 ] 117 root - INFO - Data saved to data/headlines_20250711_111905.json
+[ 2025-07-11 11:19:05,361 ] 46 root - INFO - Pipeline completed successfully
