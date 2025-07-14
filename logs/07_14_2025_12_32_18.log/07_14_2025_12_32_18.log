@@ -1,0 +1,75 @@
+[ 2025-07-14 12:32:32,142 ] 48 root - INFO - Processing 1 URLs
+[ 2025-07-14 12:32:32,142 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-14 12:32:39,975 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-14 12:32:39,975 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-14 12:32:39,975 ] 20 root - INFO - Fetching page: https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-14 12:32:40,453 ] 23 root - INFO - Page fetched successfully
+[ 2025-07-14 12:32:40,454 ] 32 root - INFO - Parsing headlines from HTML content
+[ 2025-07-14 12:32:40,513 ] 58 root - INFO - Parsed 5 unique headlines
+[ 2025-07-14 12:32:40,514 ] 117 root - INFO - Data saved to data/headlines_20250714_123240.json
+[ 2025-07-14 12:32:40,514 ] 20 root - INFO - Summarizing 5 headlines
+[ 2025-07-14 12:32:46,251 ] 37 root - INFO - Summary generated successfully
+[ 2025-07-14 12:32:46,251 ] 47 root - INFO - Summarizing individual news articles
+[ 2025-07-14 12:32:46,251 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/auto/news/fastag-users-alert-you-may-risk-blacklisting-over-this-common-mistake/articleshow/122430320.cms
+[ 2025-07-14 12:32:46,340 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:32:51,498 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/education/news/schools-in-nuh-district-of-haryana-closed-today-heres-why/articleshow/122430064.cms
+[ 2025-07-14 12:32:51,631 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:32:56,739 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/punjab-govt-plotted-nabha-jailbreak-alleges-amarinder-singh/videoshow/55649797.cms
+[ 2025-07-14 12:32:56,867 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:33:02,044 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/jitendra-singh-slams-farooq-abdullah-over-his-controversial-remarks-on-pok/videoshow/55649791.cms
+[ 2025-07-14 12:33:02,160 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:33:06,790 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/punjab-jailbreak-woman-killed-after-police-open-fire-at-vehicle-that-jumped-security-barricade/videoshow/55650435.cms
+[ 2025-07-14 12:33:06,965 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:33:14,189 ] 83 root - INFO - Individual articles summarized successfully
+[ 2025-07-14 12:33:14,190 ] 117 root - INFO - Data saved to data/headlines_20250714_123314.json
+[ 2025-07-14 12:33:14,191 ] 46 root - INFO - Pipeline completed successfully
+[ 2025-07-14 12:33:14,193 ] 76 root - INFO - Successfully processed https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-14 12:33:55,681 ] 48 root - INFO - Processing 2 URLs
+[ 2025-07-14 12:33:55,682 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-14 12:34:03,566 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-14 12:34:03,567 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-14 12:34:03,567 ] 20 root - INFO - Fetching page: https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-14 12:34:03,806 ] 23 root - INFO - Page fetched successfully
+[ 2025-07-14 12:34:03,807 ] 32 root - INFO - Parsing headlines from HTML content
+[ 2025-07-14 12:34:03,866 ] 58 root - INFO - Parsed 5 unique headlines
+[ 2025-07-14 12:34:03,866 ] 117 root - INFO - Data saved to data/headlines_20250714_123403.json
+[ 2025-07-14 12:34:03,866 ] 20 root - INFO - Summarizing 5 headlines
+[ 2025-07-14 12:34:09,809 ] 37 root - INFO - Summary generated successfully
+[ 2025-07-14 12:34:09,810 ] 47 root - INFO - Summarizing individual news articles
+[ 2025-07-14 12:34:09,810 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/auto/news/fastag-users-alert-you-may-risk-blacklisting-over-this-common-mistake/articleshow/122430320.cms
+[ 2025-07-14 12:34:09,909 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:34:15,452 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/education/news/schools-in-nuh-district-of-haryana-closed-today-heres-why/articleshow/122430064.cms
+[ 2025-07-14 12:34:15,544 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:34:20,793 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/punjab-govt-plotted-nabha-jailbreak-alleges-amarinder-singh/videoshow/55649797.cms
+[ 2025-07-14 12:34:20,914 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:34:26,141 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/jitendra-singh-slams-farooq-abdullah-over-his-controversial-remarks-on-pok/videoshow/55649791.cms
+[ 2025-07-14 12:34:26,269 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:34:30,810 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/punjab-jailbreak-woman-killed-after-police-open-fire-at-vehicle-that-jumped-security-barricade/videoshow/55650435.cms
+[ 2025-07-14 12:34:30,942 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:34:38,142 ] 83 root - INFO - Individual articles summarized successfully
+[ 2025-07-14 12:34:38,142 ] 117 root - INFO - Data saved to data/headlines_20250714_123438.json
+[ 2025-07-14 12:34:38,143 ] 46 root - INFO - Pipeline completed successfully
+[ 2025-07-14 12:34:38,145 ] 76 root - INFO - Successfully processed https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-14 12:34:38,145 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-14 12:34:46,552 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-14 12:34:46,655 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-14 12:34:46,655 ] 20 root - INFO - Fetching page: https://www.ndtv.com/latest
+[ 2025-07-14 12:34:46,718 ] 26 root - ERROR - Error fetching page: 403 Client Error: Forbidden for url: https://www.ndtv.com/latest
+[ 2025-07-14 12:34:46,718 ] 50 root - ERROR - Pipeline failed: Error occured in python script name [/Users/mukunddixit/Desktop/webscraper/webscraper/components/scraper.py] line number [22] error message [403 Client Error: Forbidden for url: https://www.ndtv.com/latest]
+[ 2025-07-14 12:34:46,719 ] 87 root - ERROR - Failed to process https://www.ndtv.com/latest: Error occured in python script name [/Users/mukunddixit/Desktop/webscraper/webscraper/pipeline.py] line number [20] error message [Error occured in python script name [/Users/mukunddixit/Desktop/webscraper/webscraper/components/scraper.py] line number [22] error message [403 Client Error: Forbidden for url: https://www.ndtv.com/latest]]
+[ 2025-07-14 12:35:49,844 ] 48 root - INFO - Processing 1 URLs
+[ 2025-07-14 12:35:49,844 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-14 12:35:57,320 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-14 12:35:57,320 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-14 12:35:57,320 ] 20 root - INFO - Fetching page: https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN%3Aen
+[ 2025-07-14 12:35:58,110 ] 23 root - INFO - Page fetched successfully
+[ 2025-07-14 12:35:58,112 ] 32 root - INFO - Parsing headlines from HTML content
+[ 2025-07-14 12:35:58,127 ] 58 root - INFO - Parsed 0 unique headlines
+[ 2025-07-14 12:35:58,128 ] 117 root - INFO - Data saved to data/headlines_20250714_123558.json
+[ 2025-07-14 12:35:58,128 ] 20 root - INFO - Summarizing 0 headlines
+[ 2025-07-14 12:36:03,703 ] 37 root - INFO - Summary generated successfully
+[ 2025-07-14 12:36:03,703 ] 47 root - INFO - Summarizing individual news articles
+[ 2025-07-14 12:36:03,703 ] 83 root - INFO - Individual articles summarized successfully
+[ 2025-07-14 12:36:03,704 ] 117 root - INFO - Data saved to data/headlines_20250714_123603.json
+[ 2025-07-14 12:36:03,704 ] 46 root - INFO - Pipeline completed successfully
+[ 2025-07-14 12:36:03,704 ] 76 root - INFO - Successfully processed https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN%3Aen

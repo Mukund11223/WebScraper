@@ -1,0 +1,51 @@
+[ 2025-07-14 12:51:07,949 ] 48 root - INFO - Processing 2 URLs
+[ 2025-07-14 12:51:07,950 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-14 12:51:15,785 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-14 12:51:15,785 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-14 12:51:15,785 ] 20 root - INFO - Fetching page: https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-14 12:51:16,056 ] 23 root - INFO - Page fetched successfully
+[ 2025-07-14 12:51:16,057 ] 32 root - INFO - Parsing headlines from HTML content
+[ 2025-07-14 12:51:16,117 ] 58 root - INFO - Parsed 5 unique headlines
+[ 2025-07-14 12:51:16,118 ] 117 root - INFO - Data saved to data/headlines_20250714_125116.json
+[ 2025-07-14 12:51:16,118 ] 20 root - INFO - Summarizing 5 headlines
+[ 2025-07-14 12:51:21,629 ] 37 root - INFO - Summary generated successfully
+[ 2025-07-14 12:51:21,629 ] 47 root - INFO - Summarizing individual news articles
+[ 2025-07-14 12:51:21,629 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/education/news/this-indian-students-f-1-visa-was-delayed-and-her-passport-retained-thanks-to-her-reddit-account-do-you-know-why/articleshow/122430379.cms
+[ 2025-07-14 12:51:21,857 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:51:30,266 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/education/news/schools-in-nuh-district-of-haryana-closed-today-heres-why/articleshow/122430064.cms
+[ 2025-07-14 12:51:30,364 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:51:35,639 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/punjab-govt-plotted-nabha-jailbreak-alleges-amarinder-singh/videoshow/55649797.cms
+[ 2025-07-14 12:51:35,767 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:51:41,302 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/jitendra-singh-slams-farooq-abdullah-over-his-controversial-remarks-on-pok/videoshow/55649791.cms
+[ 2025-07-14 12:51:41,426 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:51:46,413 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/punjab-jailbreak-woman-killed-after-police-open-fire-at-vehicle-that-jumped-security-barricade/videoshow/55650435.cms
+[ 2025-07-14 12:51:46,611 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:51:54,509 ] 83 root - INFO - Individual articles summarized successfully
+[ 2025-07-14 12:51:54,510 ] 117 root - INFO - Data saved to data/headlines_20250714_125154.json
+[ 2025-07-14 12:51:54,510 ] 46 root - INFO - Pipeline completed successfully
+[ 2025-07-14 12:51:54,510 ] 76 root - INFO - Successfully processed https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-14 12:51:54,510 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-14 12:52:02,971 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-14 12:52:03,078 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-14 12:52:03,078 ] 20 root - INFO - Fetching page: https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-14 12:52:03,241 ] 23 root - INFO - Page fetched successfully
+[ 2025-07-14 12:52:03,243 ] 32 root - INFO - Parsing headlines from HTML content
+[ 2025-07-14 12:52:03,304 ] 58 root - INFO - Parsed 5 unique headlines
+[ 2025-07-14 12:52:03,305 ] 117 root - INFO - Data saved to data/headlines_20250714_125203.json
+[ 2025-07-14 12:52:03,305 ] 20 root - INFO - Summarizing 5 headlines
+[ 2025-07-14 12:52:08,431 ] 37 root - INFO - Summary generated successfully
+[ 2025-07-14 12:52:08,431 ] 47 root - INFO - Summarizing individual news articles
+[ 2025-07-14 12:52:08,431 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/education/news/this-indian-students-f-1-visa-was-delayed-and-her-passport-retained-thanks-to-her-reddit-account-do-you-know-why/articleshow/122430379.cms
+[ 2025-07-14 12:52:08,560 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:52:16,970 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/education/news/schools-in-nuh-district-of-haryana-closed-today-heres-why/articleshow/122430064.cms
+[ 2025-07-14 12:52:17,067 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:52:22,297 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/punjab-govt-plotted-nabha-jailbreak-alleges-amarinder-singh/videoshow/55649797.cms
+[ 2025-07-14 12:52:22,405 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:52:27,592 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/jitendra-singh-slams-farooq-abdullah-over-his-controversial-remarks-on-pok/videoshow/55649791.cms
+[ 2025-07-14 12:52:27,731 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:52:32,396 ] 68 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/videos/news/punjab-jailbreak-woman-killed-after-police-open-fire-at-vehicle-that-jumped-security-barricade/videoshow/55650435.cms
+[ 2025-07-14 12:52:32,523 ] 92 root - INFO - Article content extracted successfully
+[ 2025-07-14 12:52:39,878 ] 83 root - INFO - Individual articles summarized successfully
+[ 2025-07-14 12:52:39,878 ] 117 root - INFO - Data saved to data/headlines_20250714_125239.json
+[ 2025-07-14 12:52:39,878 ] 46 root - INFO - Pipeline completed successfully
+[ 2025-07-14 12:52:39,878 ] 76 root - INFO - Successfully processed https://timesofindia.indiatimes.com/home/headlines
