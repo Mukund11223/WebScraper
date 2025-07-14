@@ -1,6 +1,8 @@
+# Web scraping and content extraction
 requests==2.31.0
 beautifulsoup4==4.12.2
 lxml==4.9.3
+aiohttp==3.9.1
 
 # Data handling
 pandas==2.0.3
@@ -11,16 +13,28 @@ transformers==4.30.2
 torch==2.0.1
 tokenizers==0.13.3
 
-# Utilities
-python-dateutil==2.8.2
-
 # Web Framework
 fastapi==0.104.1
 uvicorn==0.24.0
 
-# Validation
+# Validation and data models
 pydantic==2.5.0
 
-# HTTP Client (for async requests if needed)
+# Utilities
+python-dateutil==2.8.2
+
+# HTTP Client for async requests
 httpx==0.25.2
+
+# Additional dependencies for article processing
+html5lib==1.1
+chardet==5.2.0
+urllib3==2.0.7
+
+# Optional: For better text processing
+nltk==3.8.1
+
+# Development and testing (optional)
+# pytest==7.4.3
+# pytest-asyncio==0.21.1
 
