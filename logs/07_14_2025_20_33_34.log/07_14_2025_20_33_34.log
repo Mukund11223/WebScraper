@@ -1,0 +1,20 @@
+[ 2025-07-14 20:33:35,389 ] 95 root - INFO - Starting Article Scraping & Summarization API
+[ 2025-07-14 20:33:35,390 ] 21 root - INFO - Initializing Article Pipeline
+[ 2025-07-14 20:33:35,390 ] 18 root - INFO - Loading summarization model: facebook/bart-large-cnn
+[ 2025-07-14 20:33:35,390 ] 22 root - INFO - Using device: CPU
+[ 2025-07-14 20:33:44,795 ] 41 root - INFO - Summarization model loaded successfully
+[ 2025-07-14 20:33:44,795 ] 27 root - INFO - Article Pipeline initialized successfully
+[ 2025-07-14 20:33:44,795 ] 103 root - INFO - API startup completed successfully
+[ 2025-07-14 20:34:08,086 ] 174 root - INFO - Received request to process 1 URLs
+[ 2025-07-14 20:34:08,087 ] 240 root - INFO - Validated 1 out of 1 URLs
+[ 2025-07-14 20:34:08,087 ] 91 root - INFO - Processing 1 URLs sequentially
+[ 2025-07-14 20:34:08,087 ] 95 root - INFO - Processing URL 1/1: https://timesofindia.indiatimes.com/india/cm-change-buzz-congress-alleges-bjp-plot-to-topple-karnataka-govt-bjp-counters-with-horse-trading-charge/articleshow/122428873.cms
+[ 2025-07-14 20:34:08,087 ] 44 root - INFO - Processing single URL: https://timesofindia.indiatimes.com/india/cm-change-buzz-congress-alleges-bjp-plot-to-topple-karnataka-govt-bjp-counters-with-horse-trading-charge/articleshow/122428873.cms
+[ 2025-07-14 20:34:08,087 ] 53 root - INFO - Fetching article from: https://timesofindia.indiatimes.com/india/cm-change-buzz-congress-alleges-bjp-plot-to-topple-karnataka-govt-bjp-counters-with-horse-trading-charge/articleshow/122428873.cms
+[ 2025-07-14 20:34:08,389 ] 70 root - INFO - Successfully extracted article from https://timesofindia.indiatimes.com/india/cm-change-buzz-congress-alleges-bjp-plot-to-topple-karnataka-govt-bjp-counters-with-horse-trading-charge/articleshow/122428873.cms
+[ 2025-07-14 20:34:15,720 ] 78 root - INFO - Generated summary for article: Karnataka CM change buzz: BJP alleges Siddaramaiah...
+[ 2025-07-14 20:34:15,721 ] 63 root - INFO - Successfully processed URL: https://timesofindia.indiatimes.com/india/cm-change-buzz-congress-alleges-bjp-plot-to-topple-karnataka-govt-bjp-counters-with-horse-trading-charge/articleshow/122428873.cms
+[ 2025-07-14 20:34:15,721 ] 100 root - INFO - Completed URL 1/1
+[ 2025-07-14 20:34:15,721 ] 115 root - INFO - Completed processing 1 URLs
+[ 2025-07-14 20:34:15,721 ] 229 root - INFO - Completed processing 1 URLs in 7.63s. Success: 1, Failed: 0
+[ 2025-07-14 20:38:17,148 ] 112 root - INFO - Shutting down Article Scraping & Summarization API

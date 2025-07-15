@@ -1,0 +1,50 @@
+[ 2025-07-14 13:49:56,414 ] 97 root - INFO - Processing 1 URLs
+[ 2025-07-14 13:49:56,414 ] 47 root - INFO - Processing URL: https://timesofindia.indiatimes.com/india/cm-change-buzz-congress-alleges-bjp-plot-to-topple-karnataka-govt-bjp-counters-with-horse-trading-charge/articleshow/122428873.cms
+[ 2025-07-14 13:49:56,414 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-14 13:50:04,858 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-14 13:50:04,858 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-14 13:50:04,858 ] 19 root - INFO - Fetching page: https://timesofindia.indiatimes.com/india/cm-change-buzz-congress-alleges-bjp-plot-to-topple-karnataka-govt-bjp-counters-with-horse-trading-charge/articleshow/122428873.cms
+[ 2025-07-14 13:50:04,963 ] 22 root - INFO - Page fetched successfully
+[ 2025-07-14 13:50:04,964 ] 45 root - INFO - Parsing content from generic webpage
+[ 2025-07-14 13:50:05,024 ] 84 root - INFO - Extracted 61 meaningful content blocks
+[ 2025-07-14 13:50:05,024 ] 28 root - INFO - Extracted 20 content blocks
+[ 2025-07-14 13:50:05,024 ] 141 root - INFO - Data saved to data/content_20250714_135005.json
+[ 2025-07-14 13:50:05,024 ] 34 root - INFO - Generating overall summary...
+[ 2025-07-14 13:50:05,024 ] 20 root - INFO - Summarizing 20 blocks
+[ 2025-07-14 13:50:05,024 ] 33 root - INFO - Text truncated to fit model limits
+[ 2025-07-14 13:50:21,807 ] 43 root - INFO - Summary generated successfully
+[ 2025-07-14 13:50:21,807 ] 38 root - INFO - Generating individual summaries...
+[ 2025-07-14 13:50:21,807 ] 44 root - INFO - Summarizing block 1/5
+[ 2025-07-14 13:50:27,889 ] 44 root - INFO - Summarizing block 2/5
+[ 2025-07-14 13:50:31,203 ] 44 root - INFO - Summarizing block 3/5
+[ 2025-07-14 13:50:34,327 ] 44 root - INFO - Summarizing block 4/5
+[ 2025-07-14 13:50:43,417 ] 44 root - INFO - Summarizing block 5/5
+[ 2025-07-14 13:50:52,662 ] 75 root - INFO - Pipeline completed successfully
+[ 2025-07-14 13:50:52,662 ] 76 root - INFO - Overall summary: Karnataka CM change buzz: BJP alleges Siddaramaiah, DK Shivakumar trying to mobilise MLAs' support; ...
+[ 2025-07-14 13:50:52,663 ] 73 root - INFO - Successfully processed https://timesofindia.indiatimes.com/india/cm-change-buzz-congress-alleges-bjp-plot-to-topple-karnataka-govt-bjp-counters-with-horse-trading-charge/articleshow/122428873.cms
+[ 2025-07-14 13:50:52,708 ] 110 root - INFO - Completed processing: 1 successful, 0 failed
+[ 2025-07-14 13:54:03,842 ] 97 root - INFO - Processing 1 URLs
+[ 2025-07-14 13:54:03,842 ] 47 root - INFO - Processing URL: https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-14 13:54:03,843 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-14 13:54:11,231 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-14 13:54:11,231 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-14 13:54:11,232 ] 19 root - INFO - Fetching page: https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-14 13:54:11,525 ] 22 root - INFO - Page fetched successfully
+[ 2025-07-14 13:54:11,529 ] 45 root - INFO - Parsing content from generic webpage
+[ 2025-07-14 13:54:11,723 ] 84 root - INFO - Extracted 80 meaningful content blocks
+[ 2025-07-14 13:54:11,724 ] 28 root - INFO - Extracted 20 content blocks
+[ 2025-07-14 13:54:11,724 ] 141 root - INFO - Data saved to data/content_20250714_135411.json
+[ 2025-07-14 13:54:11,724 ] 34 root - INFO - Generating overall summary...
+[ 2025-07-14 13:54:11,724 ] 20 root - INFO - Summarizing 20 blocks
+[ 2025-07-14 13:54:11,724 ] 33 root - INFO - Text truncated to fit model limits
+[ 2025-07-14 13:54:17,737 ] 43 root - INFO - Summary generated successfully
+[ 2025-07-14 13:54:17,737 ] 38 root - INFO - Generating individual summaries...
+[ 2025-07-14 13:54:17,737 ] 44 root - INFO - Summarizing block 1/5
+[ 2025-07-14 13:54:20,905 ] 44 root - INFO - Summarizing block 2/5
+[ 2025-07-14 13:54:24,313 ] 44 root - INFO - Summarizing block 3/5
+[ 2025-07-14 13:54:28,085 ] 44 root - INFO - Summarizing block 4/5
+[ 2025-07-14 13:54:31,410 ] 44 root - INFO - Summarizing block 5/5
+[ 2025-07-14 13:54:35,046 ] 75 root - INFO - Pipeline completed successfully
+[ 2025-07-14 13:54:35,046 ] 76 root - INFO - Overall summary: Visit TOI Daily & Earn Times PointsKNOW MOREM Read ePaper HI, Edit ProfileMy SubscriptionRedeem Bene...
+[ 2025-07-14 13:54:35,046 ] 73 root - INFO - Successfully processed https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-14 13:54:35,084 ] 110 root - INFO - Completed processing: 1 successful, 0 failed

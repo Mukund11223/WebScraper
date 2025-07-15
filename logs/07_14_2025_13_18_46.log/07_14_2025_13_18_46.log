@@ -1,0 +1,8 @@
+[ 2025-07-14 13:19:08,622 ] 48 root - INFO - Processing 1 URLs
+[ 2025-07-14 13:19:08,622 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-14 13:19:16,407 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-14 13:19:16,407 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-14 13:19:16,407 ] 22 root - INFO - Fetching page: https://timesofindia.indiatimes.com/home/headlines
+[ 2025-07-14 13:19:16,723 ] 25 root - INFO - Page fetched successfully
+[ 2025-07-14 13:19:16,724 ] 50 root - ERROR - Pipeline failed: 'WebScraper' object has no attribute 'parse_headlines'
+[ 2025-07-14 13:19:16,727 ] 87 root - ERROR - Failed to process https://timesofindia.indiatimes.com/home/headlines: Error occured in python script name [/Users/mukunddixit/Desktop/webscraper/webscraper/pipeline.py] line number [23] error message ['WebScraper' object has no attribute 'parse_headlines']

@@ -1,0 +1,20 @@
+[ 2025-07-14 20:08:25,980 ] 39 root - INFO - Processing 1 URLs
+[ 2025-07-14 20:08:25,980 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-14 20:08:34,244 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-14 20:08:34,244 ] 15 root - INFO - Starting web scraping pipeline
+[ 2025-07-14 20:08:34,244 ] 21 root - INFO - Fetching page: https://timesofindia.indiatimes.com/india/cm-change-buzz-congress-alleges-bjp-plot-to-topple-karnataka-govt-bjp-counters-with-horse-trading-charge/articleshow/122428873.cms
+[ 2025-07-14 20:08:34,344 ] 24 root - INFO - Page fetched successfully
+[ 2025-07-14 20:08:34,345 ] 33 root - INFO - Parsing headlines from HTML content
+[ 2025-07-14 20:08:34,368 ] 59 root - INFO - Parsed 2 unique headlines
+[ 2025-07-14 20:08:34,372 ] 117 root - INFO - Data saved to data/headlines_20250714_200834.json
+[ 2025-07-14 20:08:34,372 ] 20 root - INFO - Summarizing 2 headlines
+[ 2025-07-14 20:08:39,211 ] 37 root - INFO - Summary generated successfully
+[ 2025-07-14 20:08:39,211 ] 47 root - INFO - Summarizing individual news articles
+[ 2025-07-14 20:08:39,211 ] 69 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/education/news/varun-mohan-education-qualifications-how-an-indian-origin-mit-engineer-secured-googles-2-4-billion-ai-investment/articleshow/122405531.cms
+[ 2025-07-14 20:08:39,320 ] 93 root - INFO - Article content extracted successfully
+[ 2025-07-14 20:08:45,146 ] 69 root - INFO - Fetching article content from: https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/how-priyanka-chopras-roles-mirror-grit-identity-and-reinvention/photostory/122411117.cms
+[ 2025-07-14 20:08:45,254 ] 93 root - INFO - Article content extracted successfully
+[ 2025-07-14 20:08:50,676 ] 83 root - INFO - Individual articles summarized successfully
+[ 2025-07-14 20:08:50,677 ] 117 root - INFO - Data saved to data/headlines_20250714_200850.json
+[ 2025-07-14 20:08:50,677 ] 32 root - INFO - Pipeline completed successfully
+[ 2025-07-14 20:08:50,678 ] 64 root - INFO - Successfully processed https://timesofindia.indiatimes.com/india/cm-change-buzz-congress-alleges-bjp-plot-to-topple-karnataka-govt-bjp-counters-with-horse-trading-charge/articleshow/122428873.cms

@@ -1,0 +1,13 @@
+{
+  "url": "https://www.cnbc.com/world/?region=world",
+  "total_headlines": 1,
+  "overall_summary": "CNN.com will feature iReporter photos in a weekly Travel Snapshots gallery. Visit CNN.com/Travel each week for a new gallery of snapshots from around the world. Visit www.dailymail.co.uk/Travel next Wednesday for a gallery of photos from across the globe.",
+  "individual_summaries": [
+    {
+      "headline": "Pro News and Analysis",
+      "summary": "Here are Monday's biggest analyst calls: Nvidia, Tesla, Rivian, Best Buy and more. Analysts have been raising their earnings estimates on these stocks reporting this week.",
+      "link": "https://www.cnbc.com/pro/news/"
+    }
+  ],
+  "raw_data_file": "data/headlines_20250714_204722.json"
+}
