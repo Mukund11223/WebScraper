@@ -1,0 +1,74 @@
+[ 2025-07-16 12:35:14,113 ] 95 root - INFO - Processing 5 URLs - OVERALL START at 12:35:14
+[ 2025-07-16 12:35:14,113 ] 46 root - INFO - STARTED processing https://news.ycombinator.com at 12:35:14
+[ 2025-07-16 12:35:14,113 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-16 12:35:14,114 ] 46 root - INFO - STARTED processing https://www.bbc.com/news at 12:35:14
+[ 2025-07-16 12:35:14,114 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-16 12:35:14,114 ] 46 root - INFO - STARTED processing https://techcrunch.com at 12:35:14
+[ 2025-07-16 12:35:14,114 ] 46 root - INFO - STARTED processing https://www.reuters.com at 12:35:14
+[ 2025-07-16 12:35:14,114 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-16 12:35:14,114 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-16 12:35:14,114 ] 46 root - INFO - STARTED processing https://www.cnn.com at 12:35:14
+[ 2025-07-16 12:35:14,115 ] 10 root - INFO - Loading model: facebook/bart-large-cnn
+[ 2025-07-16 12:35:54,174 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-16 12:35:54,174 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-16 12:35:54,175 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-16 12:35:54,175 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-16 12:35:54,176 ] 20 root - INFO - Fetching page: https://news.ycombinator.com
+[ 2025-07-16 12:35:54,176 ] 20 root - INFO - Fetching page: https://www.reuters.com
+[ 2025-07-16 12:35:54,291 ] 26 root - ERROR - Error fetching page: 401 Client Error: HTTP Forbidden for url: https://www.reuters.com/
+[ 2025-07-16 12:35:54,292 ] 50 root - ERROR - Pipeline failed: Error occured in python script name [/Users/mukunddixit/Desktop/webscraper/webscraper/components/scraper.py] line number [22] error message [401 Client Error: HTTP Forbidden for url: https://www.reuters.com/]
+[ 2025-07-16 12:35:54,299 ] 85 root - ERROR - FAILED processing https://www.reuters.com at 12:35:54 (took 40.19s): Error occured in python script name [/Users/mukunddixit/Desktop/webscraper/webscraper/pipeline.py] line number [20] error message [Error occured in python script name [/Users/mukunddixit/Desktop/webscraper/webscraper/components/scraper.py] line number [22] error message [401 Client Error: HTTP Forbidden for url: https://www.reuters.com/]]
+[ 2025-07-16 12:35:55,216 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-16 12:35:55,216 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-16 12:35:55,216 ] 20 root - INFO - Fetching page: https://www.bbc.com/news
+[ 2025-07-16 12:35:55,285 ] 23 root - INFO - Page fetched successfully
+[ 2025-07-16 12:35:55,286 ] 36 root - INFO - Extracting general summary from HTML content
+[ 2025-07-16 12:35:55,317 ] 81 root - INFO - General summary extracted successfully
+[ 2025-07-16 12:35:55,322 ] 156 root - INFO - Data saved to data/summary_20250716_123555.json
+[ 2025-07-16 12:35:55,322 ] 24 root - INFO - Generating overall website summary from extracted data.
+[ 2025-07-16 12:35:55,525 ] 23 root - INFO - Page fetched successfully
+[ 2025-07-16 12:35:55,526 ] 36 root - INFO - Extracting general summary from HTML content
+[ 2025-07-16 12:35:55,556 ] 81 root - INFO - General summary extracted successfully
+[ 2025-07-16 12:35:55,557 ] 156 root - INFO - Data saved to data/summary_20250716_123555.json
+[ 2025-07-16 12:35:55,557 ] 24 root - INFO - Generating overall website summary from extracted data.
+[ 2025-07-16 12:36:04,928 ] 56 root - INFO - Overall website summary generated successfully
+[ 2025-07-16 12:36:04,931 ] 70 root - INFO - Summarizing individual prominent text blocks. Found 4 blocks.
+[ 2025-07-16 12:36:04,931 ] 110 root - INFO - Individual prominent text blocks summarized successfully
+[ 2025-07-16 12:36:04,936 ] 156 root - INFO - Data saved to data/summary_20250716_123604.json
+[ 2025-07-16 12:36:04,936 ] 46 root - INFO - Pipeline completed successfully
+[ 2025-07-16 12:36:04,948 ] 73 root - INFO - COMPLETED processing https://www.bbc.com/news at 12:36:04 (took 50.83s)
+[ 2025-07-16 12:36:12,888 ] 56 root - INFO - Overall website summary generated successfully
+[ 2025-07-16 12:36:12,888 ] 70 root - INFO - Summarizing individual prominent text blocks. Found 4 blocks.
+[ 2025-07-16 12:36:12,888 ] 110 root - INFO - Individual prominent text blocks summarized successfully
+[ 2025-07-16 12:36:12,889 ] 156 root - INFO - Data saved to data/summary_20250716_123612.json
+[ 2025-07-16 12:36:12,889 ] 46 root - INFO - Pipeline completed successfully
+[ 2025-07-16 12:36:12,889 ] 73 root - INFO - COMPLETED processing https://news.ycombinator.com at 12:36:12 (took 58.78s)
+[ 2025-07-16 12:36:20,030 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-16 12:36:20,031 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-16 12:36:20,031 ] 20 root - INFO - Fetching page: https://techcrunch.com
+[ 2025-07-16 12:36:20,511 ] 12 root - INFO - Model loaded successfully
+[ 2025-07-16 12:36:20,511 ] 17 root - INFO - Starting web scraping pipeline
+[ 2025-07-16 12:36:20,511 ] 20 root - INFO - Fetching page: https://www.cnn.com
+[ 2025-07-16 12:36:20,511 ] 23 root - INFO - Page fetched successfully
+[ 2025-07-16 12:36:20,513 ] 36 root - INFO - Extracting general summary from HTML content
+[ 2025-07-16 12:36:21,056 ] 81 root - INFO - General summary extracted successfully
+[ 2025-07-16 12:36:21,056 ] 156 root - INFO - Data saved to data/summary_20250716_123621.json
+[ 2025-07-16 12:36:21,056 ] 24 root - INFO - Generating overall website summary from extracted data.
+[ 2025-07-16 12:36:21,165 ] 23 root - INFO - Page fetched successfully
+[ 2025-07-16 12:36:21,171 ] 36 root - INFO - Extracting general summary from HTML content
+[ 2025-07-16 12:36:21,283 ] 81 root - INFO - General summary extracted successfully
+[ 2025-07-16 12:36:21,283 ] 156 root - INFO - Data saved to data/summary_20250716_123621.json
+[ 2025-07-16 12:36:21,283 ] 24 root - INFO - Generating overall website summary from extracted data.
+[ 2025-07-16 12:36:30,209 ] 56 root - INFO - Overall website summary generated successfully
+[ 2025-07-16 12:36:30,209 ] 70 root - INFO - Summarizing individual prominent text blocks. Found 4 blocks.
+[ 2025-07-16 12:36:30,209 ] 110 root - INFO - Individual prominent text blocks summarized successfully
+[ 2025-07-16 12:36:30,211 ] 156 root - INFO - Data saved to data/summary_20250716_123630.json
+[ 2025-07-16 12:36:30,211 ] 46 root - INFO - Pipeline completed successfully
+[ 2025-07-16 12:36:30,212 ] 73 root - INFO - COMPLETED processing https://www.cnn.com at 12:36:30 (took 76.10s)
+[ 2025-07-16 12:36:30,992 ] 56 root - INFO - Overall website summary generated successfully
+[ 2025-07-16 12:36:30,992 ] 70 root - INFO - Summarizing individual prominent text blocks. Found 4 blocks.
+[ 2025-07-16 12:36:30,992 ] 110 root - INFO - Individual prominent text blocks summarized successfully
+[ 2025-07-16 12:36:30,992 ] 156 root - INFO - Data saved to data/summary_20250716_123630.json
+[ 2025-07-16 12:36:30,992 ] 46 root - INFO - Pipeline completed successfully
+[ 2025-07-16 12:36:30,992 ] 73 root - INFO - COMPLETED processing https://techcrunch.com at 12:36:30 (took 76.88s)
+[ 2025-07-16 12:36:31,060 ] 115 root - INFO - Processing 5 URLs - OVERALL COMPLETE at 12:36:31 (total time: 76.95s)
